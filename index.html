@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-PageCode</title>
+    <style>
+        body{
+            background-color: rgb(39, 0, 71);
+            animation: BodyBGColor 2s alternate infinite;
+            -ms-user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+        @keyframes BodyBGColor{
+            from { background-color: rgb(39,0,71); }
+            to { background-color: rgb(104, 0, 189); }
+        }
+        #text1{
+            position: fixed;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 40px;
+            font-weight: 200;
+            transition: transform 0.5s ease;
+            color: white;
+        }
+        #text1:hover{
+            transform: translate(-50%,-50%) scale(1.5);
+        }
+        #text2{
+            position: fixed;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: white;
+            font-size: 20px;
+            font-weight: 200;
+            transition: transform 0.5s ease;
+        }
+        #text2:hover{
+            transform: translate(-50%,-50%) scale(1.5);
+        }
+        #btn1{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 12.5%;
+            height: 4%;
+            border: none;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid transparent;
+            font-size: 15px;
+            transition: border-color 0.3s ease;
+        }
+        #btn1:hover{
+            border-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="text1">T-PageCode</h1>
+    <p id="text2">C O D E</p>
+    <button id="btn1" onclick="window.location.href='./Page1.html'">开始</button>
+    <script>
+        document.addEventListener("contextmenu",(PreventDefaultContextMenu) => {
+            PreventDefaultContextMenu.preventDefault();
+        })
+    </script>
+</body>
+</html>
