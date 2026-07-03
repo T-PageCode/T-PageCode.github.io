@@ -64,46 +64,10 @@
             left: 80%;
             transform: translate(-50%,-50%);
             color: white;
-            font-size: 20px;
-        }
-        #text6{
-            position: fixed;
-            top: 10%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            color: white;
-            font-weight: 200;
-            white-space: nowrap;
-        }
-        #text7{
-            position: fixed;
-            top: 40%;
-            left: 30%;
-            transform: translate(-50%,-50%);
             font-size: 15px;
-            color: white;
-            background-color: rgb(54, 54, 54);
-            width: 50%;
-            height: 20%;
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        #text8{
-            position: fixed;
-            top: 40%;
-            left: 80%;
-            transform: translate(-50%,-50%);
-            color: white;
-            font-size: 20px;
             white-space: nowrap;
         }
         #span1{
-            color: rgb(211, 145, 255);
-            font-size: 25px;
-        }
-        #span2{
             color: rgb(211, 145, 255);
             font-size: 25px;
         }
@@ -132,28 +96,10 @@
             background-color: black;
             border-radius: 10px;
         }
-        #XM2{
-            position: fixed;
-            top: 67%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            width: 95%;
-            height: 35%;
-            background-color: black;
-            border-radius: 10px;
-        }
-        #ul1{
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            width: 400px;
-            font-size: 15px;
-        }
         #btn1{
             position: fixed;
             top: 90%;
-            left: 35%;
+            left: 50%;
             transform: translate(-50%,-50%);
             width: 20%;
             height: 7.5%;
@@ -164,22 +110,6 @@
             transition: background-color 0.5s ease;
         }
         #btn1:hover{
-            background-color: rgb(153, 0, 255);
-        }
-        #btn2{
-            position: fixed;
-            top: 90%;
-            left: 65%;
-            transform: translate(-50%,-50%);
-            width: 20%;
-            height: 7.5%;
-            border: none;
-            border-radius: 10px;
-            background-color: rgb(0, 0, 0);
-            color: white;
-            transition: background-color 0.5s ease;
-        }
-        #btn2:hover{
             background-color: rgb(153, 0, 255);
         }
         #TY1{
@@ -236,42 +166,6 @@
             background-color: rgb(220, 159, 255);
             color: white;
         }
-        #TY3{
-            position: fixed;
-            top: 75%;
-            left: 35%;
-            transform: translate(-50%);
-            width: 25%;
-            height: 15%;
-            background-color: rgb(255, 255, 255);
-            color: rgb(0, 0, 0);
-            border: none;
-            border-radius: 10px;
-            transition: background-color 0.5s ease,
-            color 0.5s ease;
-        }
-        #TY3:hover{
-            background-color: rgb(220, 159, 255);
-            color: white;
-        }
-        #TY4{
-            position: fixed;
-            top: 75%;
-            left: 65%;
-            transform: translate(-50%);
-            width: 25%;
-            height: 15%;
-            background-color: rgb(255, 255, 255);
-            color: rgb(0, 0, 0);
-            border: none;
-            border-radius: 10px;
-            transition: background-color 0.5s ease,
-            color 0.5s ease;
-        }
-        #TY4:hover{
-            background-color: rgb(220, 159, 255);
-            color: white;
-        }
     </style>
 </head>
 <body>
@@ -279,21 +173,13 @@
     <div id="div_id1">
         <h1 id="text2">项目</h1>
         <div id="XM1">
-            <h1 id="text3">T-PageCode.github.io</h1>
+            <h1 id="text3">NoCSSAndWithCSS</h1>
             <p id="text4"><span id="span1">&lt;/&gt;</span>HTML CSS JS</p>
-            <p id="text5">主站</p>
-            <button id="TY1" onclick="window.location.href='./index.html'">体验</button>
-            <button id="TY2" onclick="window.open('https://github.com/T-PageCode/T-PageCode.github.io')">查看GitHub</button>
+            <p id="text5">对比有CSS和无CSS</p>
+            <button id="TY1" onclick="window.open('https://t-pagecode.github.io/NoCSSAndWithCSS')">体验</button>
+            <button id="TY2" onclick="window.open('https://github.com/T-PageCode/NoCSSAndWithCSS')">查看GitHub</button>
         </div>
-        <div id="XM2">
-            <h1 id="text6">Ghvswebtpc</h1>
-            <p id="text7"><span id="span2">&lt;/&gt;</span>HTML CSS JS</p>
-            <p id="text8">网页版系统1</p>
-            <button id="TY3" onclick="window.open('https://t-pagecode.github.io/Ghvswebtpc')">体验</button>
-            <button id="TY4" onclick="window.open('https://github.com/T-PageCode/Ghvswebtpc')">查看GitHub</button>
-        </div>
-        <button id="btn1" onclick="window.location.href='./Page1.html'">返回</button>
-        <button id="btn2" onclick="window.location.href='./Page3.html'">下一页</button>
+        <button id="btn1" onclick="window.location.href='./Page2.html'">返回</button>
     </div>
     <script>
         document.addEventListener("contextmenu",(NoCtm) => {
