@@ -15,15 +15,23 @@
         <button id="btn2" onclick="window.open('https://github.com/T-PageCode','_blank')">在GitHub中查看</button>
         <h1 id="text2">一个写代码的开发者</h1>
         <p id="text3">我是一个写代码的开发者,主要搞前端,偶尔会玩Python,C++等。</p>
-        <div id="GitCode-Msg"><span style="color: rgb(228, 179, 255);">i</span>&nbsp;&nbsp;部分仓库已在GitCode中上线</div>
+        <div id="GitCode-Msg"><span id="message-i">i</span>&nbsp;&nbsp;部分仓库已在GitCode中上线</div>
     </div>
     <div id="project-div">
         <h1 id="project-text">项目 - Project</h1>
-        <div id="ghvswebtpc">
+        <div id="ghvswebtpc" class="project">
             <h1 class="project-title">Ghvswebtpc</h1>
-            <p></p>
+            <p class="project-info">紫色网页版系统</p>
+            <button class="project-go" onclick="window.open('https://t-pagecode.github.io/Ghvswebtpc','_blank')">前往体验</button>
+            <button class="project-github" onclick="window.open('https://github.com/T-PageCode/Ghvswebtpc','_blank')">前往GitHub</button>
         </div>
-        <div id="t-pagecode-github-io"></div>
+        <div id="ghvswebtpc-desktop" class="project">
+            <h1 class="project-title">Ghvswebtpc-Desktop</h1>
+            <p class="project-info">基于Electron的Ghvswebtpc封装桌面应用</p>
+            <button class="project-go" onclick="window.open('https://github.com/T-PageCode/Ghvswebtpc-Desktop/releases')">前往下载</button>
+            <button class="project-github" onclick="window.open('https://github.com/T-PageCode/Ghvswebtpc-Desktop')">前往GitHub</button>
+        </div>
+        <button id="look-more">查看更多</button>
     </div>
     <div id="div1"></div>
     <script src="./index.js"></script>

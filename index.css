@@ -1,6 +1,5 @@
 body,html{
     background-color: white;
-    height: 200%;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -69,7 +68,7 @@ body,html{
     width: 30%;
     height: 7%;
     border-radius: 10px;
-    background-color: rgb(210, 182, 255);
+    background-color: rgb(196, 159, 255);
     border: none;
     color: white;
     font-size: 18px;
@@ -89,7 +88,7 @@ body,html{
     width: 30%;
     height: 7%;
     border-radius: 10px;
-    background-color: rgb(210, 182, 255);
+    background-color: rgb(196, 159, 255);
     border: none;
     color: white;
     font-size: 18px;
@@ -111,12 +110,11 @@ body,html{
 }
 #text3{
     position: absolute;
-    top: 82%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-family: Consolas;
     font-size: 20px;
-    width: 80%;
+    white-space: nowrap;
 }
 #div1{
     position: absolute;
@@ -141,30 +139,72 @@ body,html{
 }
 #project-div{
     position: absolute;
-    margin-top: 390px;
+    top: 390px;
     margin-left: 1220px;
     transform: translate(-50%,-50%);
     background-color: rgb(240,240,240);
     width: 750px;
     height: 750px;
     border-radius: 25px;
+    transition: height 0.5s ease,
+    top 0.5s ease;
 }
 #project-text{
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 40px;
 }
 #ghvswebtpc{
+    top: 250px;
+    left: 50%;
+}
+#ghvswebtpc-desktop{
+    top: 460px;
+    left: 50%;
+}
+#look-more{
     position: absolute;
-    top: 35%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: 200px;
+    height: 50px;
+    background-color: rgb(196, 159, 255);
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    visibility: visible;
+    opacity: 1;
+    transition: background-color 0.5s ease,
+    box-shadow 0.5s ease,
+    opacity 0.5s ease;
+}
+#look-more:hover{
+    background-color: rgb(191, 96, 255);
+}
+#look-more:active{
+    background-color: rgb(174, 53, 255)
+}
+#message-i{
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
     background-color: rgb(235, 127, 255);
     width: 700px;
-    height: 150px;
-    border-radius: 25px;
+    height: 180px;
 }
 .project-title{
     position: absolute;
@@ -172,4 +212,53 @@ body,html{
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
+    font-size: 40px;
+    white-space: nowrap;
+}
+.project-info{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.project-go{
+    position: absolute;
+    top: 83%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(196, 108, 255);
+    border: none;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    transition: background-color 0.5s ease;
+}
+.project-go:hover{
+    background-color: rgb(181, 70, 255);
+}
+.project-go:active{
+    background-color: rgb(171, 44, 255);
+}
+.project-github{
+    position: absolute;
+    top: 83%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(196, 108, 255);
+    border: none;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    transition: background-color 0.5s ease;
+}
+.project-github:hover{
+    background-color: rgb(181, 70, 255);
+}
+.project-github:active{
+    background-color: rgb(171, 44, 255);
 }

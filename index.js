@@ -5,6 +5,8 @@ const targetText = "Hello,World!";
 const speed = 120;
 let index = 0;
 const HelloWorldText = document.getElementById("HelloWorldText");
+const lookMore = document.getElementById("look-more");
+const projectDiv = document.getElementById("project-div")
 function typeDel() {
         if (index > 0) {
             index--;
@@ -28,3 +30,11 @@ function typeWriter() {
     }
 }
 typeWriter();
+lookMore.onclick = () => {
+    projectDiv.style.height = "1300px";
+    projectDiv.style.top = "665px";
+    lookMore.style.opacity = "0";
+    setTimeout(() => {
+        lookMore.style.visibility = "hidden";
+    },500)
+}
