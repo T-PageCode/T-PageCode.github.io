@@ -188,6 +188,38 @@ body,html{
 #look-more:active{
     background-color: rgb(174, 53, 255)
 }
+#more-project {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    overflow-y: auto;
+    scrollbar-width: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+#more-project-title{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+}
+#more-ghvswebtpc{
+    top: 250px;
+    left: 50%;
+}
+#more-ghvswebtpc-desktop{
+    top: 450px;
+    left: 50%;
+}
+#more-t-pagecode-github-io{
+    left: 50%;
+    top: 650px;
+}
 #message-i{
     width: 18px;
     height: 18px;
