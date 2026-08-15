@@ -7,7 +7,8 @@ let index = 0;
 const HelloWorldText = document.getElementById("HelloWorldText");
 const projectDiv = document.getElementById("project-div");
 const lookMore = document.getElementById("look-more");
-const moreProject = document.getElementById("more-project")
+const moreProject = document.getElementById("more-project");
+const moreReturn = document.getElementById("more-return");
 function typeDel() {
         if (index > 0) {
             index--;
@@ -34,4 +35,10 @@ typeWriter();
 lookMore.onclick = () => {
     moreProject.style.visibility = "visible";
     moreProject.style.opacity = "1";
+}
+moreReturn.onclick = () => {
+    moreProject.style.opacity = "0";
+    setTimeout(() => {
+        moreProject.style.visibility = "hidden";
+    },500)
 }

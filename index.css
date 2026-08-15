@@ -178,9 +178,7 @@ body,html{
     color: white;
     visibility: visible;
     opacity: 1;
-    transition: background-color 0.5s ease,
-    box-shadow 0.5s ease,
-    opacity 0.5s ease;
+    transition: background-color 0.5s ease;
 }
 #look-more:hover{
     background-color: rgb(191, 96, 255);
@@ -219,6 +217,28 @@ body,html{
 #more-t-pagecode-github-io{
     left: 50%;
     top: 650px;
+}
+#more-return{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 50px;
+    background-color: rgb(196, 159, 255);
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    visibility: visible;
+    opacity: 1;
+    transition: background-color 0.5s ease;
+}
+#more-return:hover{
+    background-color: rgb(191, 96, 255);
+}
+#more-return:active{
+    background-color: rgb(174, 53, 255)
 }
 #message-i{
     width: 18px;
