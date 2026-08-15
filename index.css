@@ -222,6 +222,10 @@ body,html{
     left: 50%;
     top: 850px;
 }
+#more-t-codesystem{
+    left: 50%;
+    top: 1050px;
+}
 #more-return{
     position: absolute;
     top: 5%;
