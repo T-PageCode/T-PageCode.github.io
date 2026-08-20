@@ -230,6 +230,10 @@ body,html{
     left: 50%;
     top: 1250px;
 }
+#more-start-https-server{
+    left: 50%;
+    top: 1450px;
+}
 #more-return{
     position: absolute;
     top: 5%;
