@@ -246,6 +246,10 @@ body,html{
     left: 50%;
     top: 2050px;
 }
+#more-font-test{
+    left: 50%;
+    top: 2250px;
+}
 #more-return{
     position: absolute;
     top: 5%;
