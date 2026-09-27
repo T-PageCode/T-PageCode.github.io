@@ -6,7 +6,7 @@ body,html{
     -ms-user-select: none;
     -o-user-select: none;
 }
-* {
+*{
     font-weight: 200;
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@ body,html{
 ::-webkit-scrollbar-thumb:active{
     background-color: rgb(200,200,200)
 }
-#index-div{
+#main-div{
     position: absolute;
     margin-top: 390px;
     margin-left: 420px;
@@ -110,7 +110,7 @@ body,html{
 }
 #text3{
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 20px;
@@ -121,6 +121,26 @@ body,html{
     top: 50%;
     left: 50%;
     background-color: rgb(240,240,240);
+}
+#gitcode-btn{
+    position: absolute;
+    top: 82.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: 7%;
+    border-radius: 10px;
+    background-color: rgb(196, 159, 255);
+    border: none;
+    color: white;
+    font-size: 18px;
+    transition: background-color 0.5s ease;
+}
+#gitcode-btn:hover{
+    background-color: rgb(210,142,255);
+}
+#gitcode-btn:active{
+    background-color: rgb(210,102,255);
 }
 #GitCode-Msg{
     position: absolute;
@@ -148,6 +168,35 @@ body,html{
     border-radius: 25px;
     transition: height 0.5s ease,
     top 0.5s ease;
+}
+#contact-div{
+    position: absolute;
+    top: 870px;
+    margin-left: 390px;
+    transform: translate(-50%,-50%);
+    background-color: rgb(240,240,240);
+    width: 750px;
+    height: 180px;
+    border-radius: 25px;
+    transition: height 0.5s ease,
+    top 0.5s ease;
+    text-align: center;
+}
+#contact-div h1,#contact-div p{
+    margin-top: 5px;
+}
+#contact-div p{
+    font-size: 20px;
+}
+#contact-div a{
+    display: block;
+    text-decoration: none;
+    transition: color 0.5s ease;
+    color: rgb(150,0,255);
+    font-size: 17px;
+}
+#contact-div a:hover{
+    color: rgb(0,0,255);
 }
 #project-text{
     position: absolute;

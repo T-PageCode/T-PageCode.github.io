@@ -42,3 +42,7 @@ moreReturn.onclick = () => {
         moreProject.style.visibility = "hidden";
     },500)
 }
+document.querySelectorAll("a").forEach((e) => {
+    e.draggable = false;
+    e.target = "_blank";
+})
