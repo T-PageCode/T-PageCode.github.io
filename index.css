@@ -63,10 +63,10 @@ body,html{
 #btn1{
     position: absolute;
     top: 55%;
-    left: 70%;
+    left: calc(50% + 150px);
     transform: translate(-50%,-50%);
-    width: 30%;
-    height: 7%;
+    width: 250px;
+    height: 50px;
     border-radius: 10px;
     background-color: rgb(196, 159, 255);
     border: none;
@@ -83,10 +83,10 @@ body,html{
 #btn2{
     position: absolute;
     top: 55%;
-    left: 30%;
+    left: calc(50% - 150px);
     transform: translate(-50%,-50%);
-    width: 30%;
-    height: 7%;
+    width: 250px;
+    height: 50px;
     border-radius: 10px;
     background-color: rgb(196, 159, 255);
     border: none;
@@ -127,8 +127,8 @@ body,html{
     top: 82.5%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 30%;
-    height: 7%;
+    width: 250px;
+    height: 50px;
     border-radius: 10px;
     background-color: rgb(196, 159, 255);
     border: none;
