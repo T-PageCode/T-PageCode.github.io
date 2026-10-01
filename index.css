@@ -28,10 +28,10 @@ body,html{
 }
 #main-div{
     position: absolute;
-    margin-top: 390px;
-    margin-left: 420px;
+    top: 390px;
+    left: 50%;
     transform: translate(-50%,-50%);
-    width: 800px;
+    width: 90%;
     height: 750px;
     background-color: rgb(240,240,240);
     border-radius: 25px;
@@ -159,23 +159,23 @@ body,html{
 }
 #project-div{
     position: absolute;
-    top: 390px;
-    margin-left: 1220px;
+    top: 1150px;
+    left: 50%;
     transform: translate(-50%,-50%);
     background-color: rgb(240,240,240);
-    width: 750px;
-    height: 750px;
+    width: 90%;
+    height: 700px;
     border-radius: 25px;
     transition: height 0.5s ease,
     top 0.5s ease;
 }
 #contact-div{
     position: absolute;
-    top: 870px;
-    margin-left: 390px;
+    top: 1630px;
+    left: 50%;
     transform: translate(-50%,-50%);
     background-color: rgb(240,240,240);
-    width: 750px;
+    width: 90%;
     height: 180px;
     border-radius: 25px;
     transition: height 0.5s ease,
