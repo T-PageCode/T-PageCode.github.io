@@ -9,6 +9,7 @@ const projectDiv = document.getElementById("project-div");
 const lookMore = document.getElementById("look-more");
 const moreProject = document.getElementById("more-project");
 const moreReturn = document.getElementById("more-return");
+const loadDiv = document.getElementById("load-div");
 function typeDel() {
         if (index > 0) {
             index--;
@@ -45,4 +46,10 @@ moreReturn.onclick = () => {
 document.querySelectorAll("a").forEach((e) => {
     e.draggable = false;
     e.target = "_blank";
+})
+window.addEventListener("load",() => {
+    loadDiv.style.opacity = "0";
+    setTimeout(() => {
+        loadDiv.style.visibility = "hidden";
+    },500)
 })
