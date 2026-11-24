@@ -8,12 +8,53 @@ body{
 }
 #text2{
     position: fixed;
-    top: calc(50% - 110px);
-    left: 50%;
+    top: calc(50% - 190px);
+    left: calc(50% - 50px);
     transform: translate(-50%,-50%);
-    font-weight: 200;
-    font-size: 80px;
+    font-weight: 900;
+    font-size: 120px;
     white-space: nowrap;
+    background: linear-gradient(130deg,yellow,rgb(0,255,255),rgb(255,0,255));
+    background-clip: text;
+    color: transparent;
+}
+#t-pagecode{
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% + 90px);
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 95px;
+    background-image: url(./GitHubUserImage.png);
+    background-size: cover;
+    border-radius: 50%;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border: 1px solid black;
+}
+#t-pagecode::before{
+    position: absolute;
+    top: calc(50% - 5px);
+    left: calc(50% - 25px);
+    transform: translate(-50%,-50%);
+    width: 20px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    content: "";
+}
+#t-pagecode::after{
+    position: absolute;
+    top: calc(50% - 5px);
+    left: calc(50% + 10px);
+    transform: translate(-50%,-50%);
+    width: 20px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    content: "";
 }
 #text3{
     position: fixed;
